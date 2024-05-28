@@ -49,7 +49,7 @@ const UserCard = (props) => {
               </div>
             </div>
             <hr
-              style={{ width: "330px", color: "black", margin: "0 0 10px 0" }}
+              style={{ width: "330px", backgroundColor: "white",borderColor:"white", margin: "0 0 10px 0" }}
             />
             <Typography
               variant="body2"
