@@ -28,7 +28,7 @@ function App() {
         <UserProfile
           user={rockyDetails}
           render={(data) => <UserCard bio={data} />}
-        />
+        />  
       </div>
     </div>
   );
