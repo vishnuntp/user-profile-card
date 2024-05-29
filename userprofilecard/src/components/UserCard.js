@@ -24,7 +24,7 @@ const UserCard = (props) => {
         }}
         className="cardStyle"
       >
-        <CardActionArea>
+        <CardActionArea style={{position:"relative !important"}}>
           <CardMedia
             component="img"
             height="140"
@@ -38,7 +38,8 @@ const UserCard = (props) => {
                 <Typography
                   variant="h4"
                   component="div"
-                  className="whiteColor"
+                  className="whiteColor julius-sans-one-regular textZoom"
+                  style={{fontSmooth:"10px"}}
                 >
                   {bio.name}
                 </Typography>
@@ -48,12 +49,12 @@ const UserCard = (props) => {
                 <FacebookIcon className="face whiteColor" />
               </div>
             </div>
-            <hr
+            {/* <hr
               style={{ width: "330px", backgroundColor: "white",borderColor:"white", margin: "0 0 10px 0" }}
-            />
+            /> */}
             <Typography
               variant="body2"
-              className="play-regular whiteColor"
+              className="oxanium-Light whiteColor"
             >
               {bio.biography}
             </Typography>
